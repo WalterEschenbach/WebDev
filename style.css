@@ -1,0 +1,104 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+html{
+    margin: 0;
+    overflow-x: hidden;
+    
+}
+body{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(45deg, rgba(35,39,96,0.5637605383950455) 0%, rgba(41,102,47,0.5721638997395833) 100%);
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.container {
+    background-color: white;
+    width: 85vw;
+    box-shadow: 0px 0px 35px 4px rgba(0,0,0,0.56);
+}
+header{
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50vh;
+    
+}
+.profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+}
+.profile img{
+    width: 20rem;
+    border-radius: 100%;
+    box-shadow: 10px 10px 35px -11px rgba(0,0,0,0.56);
+}
+.about{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+p{
+    margin-top: 0;
+    font-size: 2rem;
+}
+.split{
+    display: flex;
+    flex-direction: row;
+    height: 45vh;
+}
+.half{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+table{
+    border-radius: 20px;
+    height: 20vh;
+    width: 25vw;
+}
+.center{
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+.body-img{
+    width: 60%;
+}
+.rotate-right{
+    float: left;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.rotate-left {
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  .bottom-blur{
+    box-shadow: 0px 18px 22px -5px rgba(0,0,0,0.66);
+  }
