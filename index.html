@@ -17,72 +17,95 @@ working branch as Challenge II, then merge your working branch into your main br
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Walter</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header>
-        <div>
-            <img src="./public/profile-pic-sqr.jpg" alt="" style="width: 10rem" />
-            <h1>Walter Eschenbach</h1>
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum voluptate, veritatis voluptatem
-                blanditiis
-                facere repellendus expedita quasi cupiditate esse quos animi voluptates. Nisi, eos. Consequatur quis
-                voluptatem quae totam.</p>
-        </div>
-    </header>
-    <section>
-        <table>
-            <tr>
-                <th>Movies:</th>
-                <th>Foods:</th>
-            </tr>
-            <tr>
-                <td>Oceans Eleven</td>
-                <td>Cheese Burger</td>
-            </tr>
-            <tr>
-                <td>Big Lebowski</td>
-                <td>Pizza</td>
-            </tr>
-            <tr>
-                <td>Be Cool</td>
-                <td>Chicken Tenders</td>
-            </tr>
-            <tr>
-                <td>Casino Royale</td>
-                <td>Bourbon</td>
-            </tr>
-            <tr>
-                <td>Dark Knight</td>
-                <td>Ribs</td>
-            </tr>
-        </table>
-    </section>
-    <section>
-        <div>
-            <h3>Lunch Buddies:</h3>
-            <ul>
-                <li>Michael Jordan</li>
-                <li>Justin Fields</li>
-                <li>Patrick Kane</li>
-            </ul>
-        </div>
-        <div>
-            <h3>City Population (metro)</h3>
-            <ol>
-                <li>Tokyo</li>
-                <li>Delhi</li>
-                <li>Shanghai</li>
-                <li>Sao Paulo</li>
-                <li>Mexico City</li>
-            </ol>
-        </div>
-    </section>
-    <footer>
-        Thank you!
-    </footer>
+    <div class="container">
+        <header class="bottom-blur">
+            <div class="profile">
+                <img src="./public/profile-pic-sqr.jpg" alt="" />
+                <h1>Walter Eschenbach</h1>
+            </div>
+            <div class="about">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum voluptate, veritatis
+                    voluptatem
+                    blanditiis
+                    facere repellendus expedita quasi cupiditate esse quos animi voluptates. Nisi, eos. Consequatur quis
+                    voluptatem quae totam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum voluptate, veritatis
+                    voluptatem
+                    blanditiis
+                    facere repellendus expedita quasi cupiditate esse quos animi voluptates. Nisi, eos. Consequatur quis
+                    voluptatem quae totam.</p>
+            </div>
+        </header>
+        <section class="split">
+            <div class="half">
+
+                <table>
+                    <tr>
+                        <th>Movies:</th>
+                        <th>Foods:</th>
+                    </tr>
+                    <tr>
+                        <td>Oceans Eleven</td>
+                        <td>Cheese Burger</td>
+                    </tr>
+                    <tr>
+                        <td>Big Lebowski</td>
+                        <td>Pizza</td>
+                    </tr>
+                    <tr>
+                        <td>Be Cool</td>
+                        <td>Chicken Tenders</td>
+                    </tr>
+                    <tr>
+                        <td>Casino Royale</td>
+                        <td>Bourbon</td>
+                    </tr>
+                    <tr>
+                        <td>Dark Knight</td>
+                        <td>Ribs</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="half">
+                <img src="./public/oceans.jpg" alt="" class="body-img rotate-right">
+            </div>
+        </section>
+        <section class="split">
+            <div class="half">
+                <img src="./public/mike.jpg" alt="" class="body-img rotate-left">
+            </div>
+            <div class="half">
+                <h3>Lunch Buddies:</h3>
+                <ul>
+                    <li>Michael Jordan</li>
+                    <li>Justin Fields</li>
+                    <li>Patrick Kane</li>
+                </ul>
+            </div>
+        </section>
+        <section class="split bottom-blur">
+            <div class="half">
+                <h3>City Population (metro)</h3>
+                <ol>
+                    <li>Tokyo</li>
+                    <li>Delhi</li>
+                    <li>Shanghai</li>
+                    <li>Sao Paulo</li>
+                    <li>Mexico City</li>
+                </ol>
+            </div>
+            <div class="half">
+                <img src="./public/tokyo.jpg" alt="" class="body-img rotate-right">
+            </div>
+        </section>
+        <footer class="center">
+            <h6>Thank you!</h6>
+        </footer>
+    </div>
 </body>
 
 </html>
